@@ -1,0 +1,44 @@
+body {
+    background-color: aqua;
+}
+
+button {
+    border-radius: 32px;
+    border: 8px;
+    border-color: blueviolet;
+
+}
+
+button:hover {
+    transform: scale(1.5);
+}
+
+.elmo {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+}
+
+#colors {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
